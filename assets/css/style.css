@@ -1,0 +1,58 @@
+
+/* style for the body */
+body {
+    background: url("../images/handwriting.jfif");
+}
+
+/* style for the jumbotron */
+.jumbotron {
+    font-size: 24px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* container which has everything except the jumbotron */
+.container {
+    text-align: center;
+}
+
+/* start button */
+.start {
+    padding: 200px 500px 200px 500px;
+    margin: 50px 0px 0px 0px;
+    color: white;
+    background-color: black;
+}
+
+/* done button */
+.done {
+    color: white;
+    background-color: black;
+    margin: 80px 0px 0px 0px;
+}
+
+/* timer area */
+#timeLeft {
+    padding: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:white;
+    background-color: black;
+    color: white;
+}
+
+/* quiz area and also has done button */
+.form {
+    padding: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+/* questions */
+p {
+    padding: 20px;
+}

@@ -10,23 +10,23 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <!-- link to css file -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Trivia Game</title>
 </head>
 <body>
+
+    <div class="jumbotron">Shakespeare Trivia Game</div>
 
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Shakespeare Trivia Game</h1>
-            </div>
             <div class="col-md-12" id="content">
-                <button class="btn btn-primary" id="btn">Start</button>
+                <button class="btn btn-primary start" id="btn">Click Here To Start!</button>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12" id="timeLeft">
                 <p>Time Left:</p>
                 <p id="timer">120</p>
             </div>
-            <div class="col-md-12" id="form">
+            <div class="col-md-12 form" id="form">
                 <p>Where was Shakespeare born?</p>
                 <input type="radio" name="q1" id="a" value="Stratford-Upon-Avon">
                 <label for="a">Stratford-Upon-Avon</label>
@@ -77,8 +77,10 @@
                 <input type="radio" name="q5" id="d" value="Polonius">
                 <label for="d">Polonius from Hamlet</label>
 
+                <br>
+
                 
-                <button class="btn btn-primary" id="done">Done</button>
+                <button class="btn btn-primary done" id="done">Done</button>
 
             </div>
         </div>
