@@ -17,15 +17,69 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Trivia Game</h1>
+                <h1>Shakespeare Trivia Game</h1>
             </div>
-            <div class="col-md-12 content">
-                <button class="btn btn-primary">Start</button>
+            <div class="col-md-12" id="content">
+                <button class="btn btn-primary" id="btn">Start</button>
             </div>
-            <div class="col-md-12 form">
-                <p>Question 1</p>
-                <input type="radio" id="a">
-                <label for="a">a</label>
+            <div class="col-md-12">
+                <p>Time Left:</p>
+                <p id="timer">120</p>
+            </div>
+            <div class="col-md-12" id="form">
+                <p>Where was Shakespeare born?</p>
+                <input type="radio" name="q1" id="a" value="Stratford-Upon-Avon">
+                <label for="a">Stratford-Upon-Avon</label>
+                <input type="radio" name="q1" id="b" value="London">
+                <label for="b">London</label>
+                <input type="radio" name="q1" id="c" value="Liverpool">
+                <label for="c">Liverpool</label>
+                <input type="radio" name="q1" id="d" value="York">
+                <label for="d">York</label>
+
+                <p>How many sonnets did Shakespeare write?</p>
+                <input type="radio" name="q2" id="a" value="120">
+                <label for="a">120</label>
+                <input type="radio" name="q2" id="b" value="50">
+                <label for="b">50</label>
+                <input type="radio" name="q2" id="c" value="154">
+                <label for="c">154</label>
+                <input type="radio" name="q2" id="d" value="167">
+                <label for="d">167</label>
+
+                <p>What is the name of Shakespeare's theater in London?</p>
+                <input type="radio" name="q3" id="a" value="Apollo Victoria">
+                <label for="a">Apollo Victoria</label>
+                <input type="radio" name="q3" id="b" value="the Globe">
+                <label for="b">the Globe</label>
+                <input type="radio" name="q3" id="c" value="the Old Vic">
+                <label for="c">the Old Vic</label>
+                <input type="radio" name="q3" id="d" value="Lyceum">
+                <label for="d">Lyceum</label>
+
+                <p>What is Shakespeare's longest play?</p>
+                <input type="radio" name="q4" id="a" value="Romeo and Juliet">
+                <label for="a">Romeo and Juliet</label>
+                <input type="radio" name="q4" id="b" value="Othello">
+                <label for="b">Othello</label>
+                <input type="radio" name="q4" id="c" value="Hamlet">
+                <label for="c">Hamlet</label>
+                <input type="radio" name="q4" id="d" value="King Lear">
+                <label for="d">King Lear</label>
+
+                <p>Which Shakespeare character said the famous line, "To thine own self be true?"</p>
+                <input type="radio" name="q5" id="a" value="Mercutio">
+                <label for="a">Mercutio from Romeo and Juliet</label>
+                <input type="radio" name="q5" id="b" value="Oberon">
+                <label for="b">Oberon from A Midsummer Night's Dream</label>
+                <input type="radio" name="q5" id="c" value="Viola">
+                <label for="c">Viola from Twelfth Night</label>
+                <input type="radio" name="q5" id="d" value="Polonius">
+                <label for="d">Polonius from Hamlet</label>
+
+                
+                <button class="btn btn-primary" id="done">Done</button>
+
             </div>
         </div>
 
