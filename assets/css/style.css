@@ -37,7 +37,7 @@ body {
     padding: 30px;
     border-style: solid;
     border-width: 5px;
-    border-color:white;
+    border-color: navy;
     background-color: black;
     color: white;
 }
@@ -47,7 +47,7 @@ body {
     padding: 30px;
     border-style: solid;
     border-width: 5px;
-    border-color: white;
+    border-color: navy;
     background-color: black;
     color: white;
 }
@@ -55,4 +55,8 @@ body {
 /* questions */
 p {
     padding: 20px;
+}
+
+hr {
+    background-color: navy;
 }
