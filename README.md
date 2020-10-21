@@ -37,18 +37,13 @@ This application uses basic JavaScript to build a trivia game that is timed and 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-![Trivia Game](./assets/images/TriviaGame.png "Trivia Game")
-
-This is just a fun project that allows users to search for fun dessert-themed gifs using buttons. They can add their own or start and stop the gif animation of the results displayed. It also lists the TriviaGame API's built in grade for each gif.
+![Trivia Game](./assets/images/triviagame.png "Trivia Game")
 
 ### Built With
 * [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Bootstrap](https://getbootstrap.com/)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [jQuery](https://jquery.com)
-* [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX)
-* [TriviaGame API](https://developers.TriviaGame.com/)
 
 <!-- GETTING STARTED -->
 
@@ -56,20 +51,16 @@ This is just a fun project that allows users to search for fun dessert-themed gi
 To get a local copy up and running follow these simple steps.
   
 ### Installation
-1. Get a free API Key at https://developers.TriviaGame.com/
 
-2. Clone the repo
+1. Clone the repo
 
 ```sh
 
 git clone https://github.com/celupanow/TriviaGame.git
 
 ```
-3. Enter your API in config.js
+2. Open index.html in your browser
 
-```JS
-var config = "ENTER YOUR API";
-```
 <!-- ROADMAP -->
 
 ## Roadmap
@@ -87,14 +78,11 @@ See the [open issues](https://github.com/celupanow/TriviaGame/issues) for a list
 Christina Lupanow - christina@christinalupanow.com
 
   
-
 Project Link: [https://github.com/celupanow/TriviaGame](https://github.com/celupanow/TriviaGame)
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgements
-
-  
 
 * [GitHub Pages](https://pages.github.com)
 
@@ -128,5 +116,5 @@ Project Link: [https://github.com/celupanow/TriviaGame](https://github.com/celup
 
 [product-screenshot]: images/screenshot.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzIyNjgzN119
+eyJoaXN0b3J5IjpbLTEzMjUyNTU1MTIsMTQ5NzIyNjgzN119
 -->
