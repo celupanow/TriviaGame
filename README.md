@@ -112,9 +112,10 @@ Project Link: [https://github.com/celupanow/TriviaGame](https://github.com/celup
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 
-[linkedin-url]: https://linkedin.com/in/celupanow
+[linkedin-url]: https://www.linkedin.com/in/christinalupanow
 
 [product-screenshot]: images/screenshot.png
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjUyNTU1MTIsMTQ5NzIyNjgzN119
+eyJoaXN0b3J5IjpbLTg2MjgzNDc1OCwtMTMyNTI1NTUxMiwxND
+k3MjI2ODM3XX0=
 -->
